@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DTI website login design">
+    <meta name="keywords" content="login">
+    <meta name="author" content="Amarat Kositwongsakul">
+    
+    
+    
+    
+    
+    
+    <title>DTI 2023</title>
+<link rel="shortcut icon" href="http://127.0.0.1:5500/images/imglogin01/sau_logo.png" type="image/x-icon"><link rel="stylesheet" href="%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_DTI%202023/style01.css"><link rel="stylesheet" type="text/css" href="%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_DTI%202023/all.min.css"><link href="%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_DTI%202023/css.css" rel="stylesheet"><link href="%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_DTI%202023/css_003.css" rel="stylesheet"><link href="%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C_DTI%202023/css_002.css" rel="stylesheet"></head>
+<body>
+    <div class="sau">
+        <strong class="logo">SA</strong>
+        <strong class="logoU">U</strong>
+        <h5 class="logoM  ">มหาวิทยาลัยเอเชียอาคเนย์</h5>
+    </div>
+
+    <div class="wrapper-left">
+
+        <div class="form-box-login">
+            <h2>Welcome to</h2>
+            <strong>DTI Faculty</strong>
+            <hr style="width:130%">
+            <form action="#">
+                <div class="input-box">
+                    <input type="email" placeholder="Email address or username">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Keep me logged in</label>
+                    
+                </div>
+                <button type="submit" class="btn-signin">Sign In</button>
+                <br>
+                <a id="forgot-text" href="#">Forgot your password?</a>
+                <a id="signup" href="#">Sign Up</a>
+                <p class="social-text">Login using social networks</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>  
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>                  
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>                  
+                    <a href="" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>                                      
+                </div>
+                <hr style="width:130%" id="linebottom">  
+            </form>
+        </div>
+    </div>
+    <div class="wrapper-right">
+        <div class="form-signup">
+            <h2>New here ?</h2>
+            <h5>Sign up and discover a great amount of new</h5>
+            <h5>opportunities!</h5>
+        </div>
+        <button type="submit" class="btn-signup">Sign UP</button>
+    </div>
+<footer class="clearfix">
+    <div class="wrapper03">
+        <div class="form-lowerA" id="bg">
+            <p href="">999+</p>
+            <p href="">302,154+</p>
+            <p href="">12,789+</p>
+        </div>
+        <div class="form-lowerB" id="bg2">
+            <p id="fix-margin1" href="">years of experiences</p>
+            <p id="fix-margin2" href="">members of this faculty</p>
+            <p id="fix-margin3" href="">viewers</p>
+        </div>
+        <div class="form-lowerC">
+            <p href="">copyright ©2023. supported by Amarat Kositwongsakul</p>
+        </div>      
+    </div>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
